@@ -1,14 +1,10 @@
 ---
 layout: post
-current: post
-navigation: True
 title: 경계 해부학
 date: 2021-08-31 00:00:00
 tags: [architecture]
-class: post-template
-subclass: 'post tag-architecture'
-permalink: /clean_architecture/border-anatomy
 author: mason
+permalink: /clean_architecture/border-anatomy
 ---
 시스템의 컴포넌트 사이 경계는 어떤 형태가 있으며 어떤 특징이 있는가?
 

@@ -1,14 +1,10 @@
 ---
 layout: post
-current: post
-navigation: True
 title: 부분적 경계
 date: 2021-08-24 00:00:00
 tags: [architecture]
-class: post-template
-subclass: 'post tag-architecture'
-permalink: /clean_architecture/partial-boundaries
 author: mason
+permalink: /clean_architecture/partial-boundaries
 ---
 부분적 경계란?
 아키텍처 경계를 완벽하게 하기 위해서는 손이 많이가는데, 이것을 위한 구현방법

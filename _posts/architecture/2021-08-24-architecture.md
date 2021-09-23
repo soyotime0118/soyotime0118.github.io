@@ -1,14 +1,9 @@
 ---
 layout: post
-current: post
-navigation: True
 title: 클린 아키텍쳐
 date: 2021-08-24 00:00:00
 tags: [architecture]
-class: post-template
-subclass: 'post tag-architecture'
 author: mason
-category: book
 permalink: /clean_architecture/architecture
 ---
   ![클린아키텍쳐](assets/images/clean/2021-07-28_09-52-40.png)

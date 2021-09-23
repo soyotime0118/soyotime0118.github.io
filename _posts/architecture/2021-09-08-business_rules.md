@@ -1,14 +1,10 @@
 ---
 layout: post
-current: post
-navigation: True
 title: 업무 규칙
 date: 2021-09-08 00:00:00
 tags: [architecture]
-class: post-template
-subclass: 'post tag-architecture'
-permalink: /clean_architecture/business_rules
 author: mason
+permalink: /clean_architecture/business_rules
 ---
 ## 엔티티
 핵심 업무 규칙을 구체화하는것, 업무 규칙에는 데이터의 정의도 포함되기 떼문에 핵심 데이터도 포함된다.

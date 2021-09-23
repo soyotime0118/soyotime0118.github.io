@@ -1,14 +1,10 @@
 ---
 layout: post
-current: post
-navigation: True
 title: 독립성
 date: 2021-08-24 00:00:00
 tags: [architecture]
-class: post-template
-subclass: 'post tag-architecture'
-permalink: /clean_architecture/independence
 author: mason
+permalink: /clean_architecture/independence
 ---
 좋은 아키텍처에서 고려해야 할 것들 유스케이스, 운영, 개발, 배포 등이 있다.
 
