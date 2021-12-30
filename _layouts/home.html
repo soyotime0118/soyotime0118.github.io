@@ -8,6 +8,28 @@ layout: default
   {%- endif -%}
 
   {{ content }}
+  {%- if site.books.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Books" }}</h2>
+
+  <ul class="post-list">
+    {%- for book in site.books-%}
+    <li>
+      {%- if book.indexPage -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ book.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ book.url | relative_url }}">
+          {{ book.title | escape }}
+        </a>
+      </h3>
+      {%- endif -%}
+      {%- if site.show_excerpts -%}
+      {{ book.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
