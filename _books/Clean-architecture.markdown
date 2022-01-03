@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: book-index
 title: 클린 아키텍쳐
 categories: [books,clean_architecture]
 indexPage: true

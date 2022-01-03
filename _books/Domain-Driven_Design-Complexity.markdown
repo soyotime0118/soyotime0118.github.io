@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: book-index
 title: 도메인주도설계(소프트웨어의 복잡성을 다루는 지혜)
 categories: [books,domain-driven-design-eric-evans]
 indexPage: true
