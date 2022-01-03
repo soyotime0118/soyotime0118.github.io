@@ -23,6 +23,7 @@ layout: default
         <a class="post-link" href="{{ book.url | relative_url }}">
           {{ book.title | escape }}
         </a>
+        {{book.subject}}
       </h3>
       {%- if site.show_excerpts -%}
       {{ book.excerpt }}
