@@ -4,7 +4,7 @@ title: 업무 규칙
 date: 2021-09-08 00:00:00
 tags: [architecture]
 author: mason
-permalink: /clean_architecture/business_rules
+categories: [books,clean_architecture,part5,ch20]
 ---
 ## 엔티티
 핵심 업무 규칙을 구체화하는것, 업무 규칙에는 데이터의 정의도 포함되기 떼문에 핵심 데이터도 포함된다.

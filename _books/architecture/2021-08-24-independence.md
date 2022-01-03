@@ -4,7 +4,7 @@ title: 독립성
 date: 2021-08-24 00:00:00
 tags: [architecture]
 author: mason
-permalink: /clean_architecture/independence
+categories: [books,clean_architecture,part5,ch16]
 ---
 좋은 아키텍처에서 고려해야 할 것들 유스케이스, 운영, 개발, 배포 등이 있다.
 

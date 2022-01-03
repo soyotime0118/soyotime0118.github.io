@@ -4,7 +4,7 @@ title: 정책과 수준
 date: 2021-08-31 00:00:00
 tags: [architecture]
 author: mason
-permalink: /clean_architecture/policy_level
+categories: [books,clean_architecture,part5,ch19]
 ---
 ## 수준
 * ‘수준’ 은 입력과 출력까지의 거리이다. 파일에서 읽는 부분은 저수준, DB에 쓰는 부분은 저수준, 메일을 보내는 부분은 저수준, 번역을 하는 부분은 고수준이다.

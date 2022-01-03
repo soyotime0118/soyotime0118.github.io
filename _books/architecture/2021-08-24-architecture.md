@@ -4,7 +4,7 @@ title: 클린 아키텍쳐
 date: 2021-08-24 00:00:00
 tags: [architecture]
 author: mason
-permalink: /clean_architecture/architecture
+categories: [books,clean_architecture,part5,ch22]
 ---
   ![클린아키텍쳐](assets/images/clean/2021-07-28_09-52-40.png)
 ## 의존성 규칙

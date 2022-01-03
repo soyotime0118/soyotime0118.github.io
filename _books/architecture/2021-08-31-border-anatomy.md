@@ -4,7 +4,8 @@ title: 경계 해부학
 date: 2021-08-31 00:00:00
 tags: [architecture]
 author: mason
-permalink: /clean_architecture/border-anatomy
+categories: [books,clean_architecture,part5,ch18]
+
 ---
 시스템의 컴포넌트 사이 경계는 어떤 형태가 있으며 어떤 특징이 있는가?
 
