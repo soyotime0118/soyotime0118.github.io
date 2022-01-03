@@ -6,7 +6,7 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-  목차
+  <img src="{{page.coverimage}}"/>
 
   {{ content }}
   {%- if site.books.size > 0 -%}
@@ -15,6 +15,7 @@ layout: default
   {% assign filtered_posts = site.books | where_exp: 'book', "book.categories contains page.categories[1]" %}
   <ul class="post-list">
     {%- for book in filtered_posts-%}
+    {%- if book.indexPage == null -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ book.date | date: date_format }}</span>
@@ -27,6 +28,7 @@ layout: default
       {{ book.excerpt }}
       {%- endif -%}
     </li>
+    {%- endif -%}
     {%- endfor -%}
   </ul>
   {%- endif -%}
